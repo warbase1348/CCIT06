@@ -1,0 +1,73 @@
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)),url('maming.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-weight: 900;
+    border-radius: 60px;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    
+
+}
+
+.btn-brand {
+    background-color: red;
+    color: #f7f4f4;
+    border: 2px solid #FFF;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.bisag-maming{
+    width: 40%;
+}
+#services .btn-brand:hover {
+    color: orange !important ;
+    border-color:orange !important;
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+    border: 5px solid var(--border); /* Border style */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+
+
+.card:hover {
+    background-color: orange;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #ffffff;
+}
+
+#services h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color:rgb(6, 6, 6);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #101010f7;
+}
+
+#services {
+    background-color: #f4f2f0f5;
+}
+
