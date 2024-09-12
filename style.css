@@ -24,7 +24,7 @@
 
 .btn-brand:hover {
     background-color: transparent;
-    color: #FFF;
+    color: #edf0e7;
     border: 2px solid #FFF;
 }
 
@@ -36,7 +36,7 @@ section {
     width: 40%;
 }
 #services .btn-brand:hover {
-    color: orange !important ;
+    color: rgb(237, 233, 225) !important ;
     border-color:orange !important;
 }
 
@@ -50,13 +50,13 @@ section {
 
 
 .card:hover {
-    background-color: orange;
+    background-color: rosybrown;
 }
 
 .card:hover .card-title,
 .card:hover .card-text,
 .card:hover .btn {
-    color: #ffffff;
+    color: #ffffffdb;
 }
 
 #services h2 {
@@ -68,6 +68,6 @@ section {
 }
 
 #services {
-    background-color: #f4f2f0f5;
+    background-color: wheat;
 }
 
