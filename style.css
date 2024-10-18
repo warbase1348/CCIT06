@@ -77,3 +77,55 @@ section {
     background-color:skyblue;
 }
 
+#cta {
+
+    height: 70vh;
+    background: linear-gradient(90deg, skyblue 0%, rgba(135, 207, 235, 0.005) 100%), url('dragon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#reviews {
+    background-color:skyblue;
+
+}
+
+.testimonials img{
+    width: 75px ;
+}
+
+.testimonials{
+    border: 2px solid black;
+    padding: 20px;
+ border-radius: 20px;
+ margin-top: 20px;
+}
+
+#faq{
+
+    background-color: skyblue;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(9, 189, 243) ;
+}
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+    
+
+
+
+.btn-outline-light {
+    border-color: #FFF;
+    color: #FFF;
+    border-radius: 0;
+}
